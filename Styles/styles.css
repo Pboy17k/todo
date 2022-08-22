@@ -95,3 +95,12 @@ text-align: center;
 .more > p > a:hover{
   background-color: orange;
 }
+
+@media all and (max-width 500px) {
+  bg-white{
+    color: blue
+  }
+  .readmore{
+    color: #cb2027;
+  }
+}
